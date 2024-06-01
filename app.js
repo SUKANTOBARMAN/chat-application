@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 
 
 // internal imports 
-const {notFoundHandler, errorHandler} = require('./middlewires/common/errorhandler');
+const {notFoundHandler, errorHandler, } = require('./middlewires/common/errorhandler');
 const loginRouter = require("./router/loginRouter.js")
 const usersRouter = require("./router/userRouter")
 const inboxRouter = require("./router/inboxRouter")
